@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections.Generic;
+using UnityEngine.Video;
 
 
 public class LifePanel : MonoBehaviour
@@ -11,6 +12,11 @@ public class LifePanel : MonoBehaviour
         InitializedLife();
     }
 
+    void OnDestroy()
+    {
+        Debug.Log("Destroy life trigger");
+        Player.isDead -= UpdateLife;
+    }
     void InitializedLife()
     {
         UpdateLife(GameManager.instance.lifeSaved);
@@ -18,7 +24,6 @@ public class LifePanel : MonoBehaviour
     public void UpdateLife( int life)
     {
         int currentLife = life;
-        Debug.Log(listLifeIcon.Count);
         foreach(RectTransform lifeIcon in listLifeIcon)
         {
             if(currentLife > 0)
