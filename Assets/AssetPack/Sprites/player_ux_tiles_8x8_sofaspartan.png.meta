@@ -1,0 +1,2535 @@
+fileFormatVersion: 2
+guid: 395dcf888c9659745bd645ca23859273
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -401184210092799206
+    second: player_ux_tiles_8x8_sofaspartan_0
+  - first:
+      213: -7574767486036608676
+    second: player_ux_tiles_8x8_sofaspartan_1
+  - first:
+      213: -3350675392845310214
+    second: player_ux_tiles_8x8_sofaspartan_2
+  - first:
+      213: -9123944693249920330
+    second: player_ux_tiles_8x8_sofaspartan_3
+  - first:
+      213: -7972475950008247122
+    second: player_ux_tiles_8x8_sofaspartan_4
+  - first:
+      213: -3976013247486973618
+    second: player_ux_tiles_8x8_sofaspartan_5
+  - first:
+      213: -3381862218123250073
+    second: player_ux_tiles_8x8_sofaspartan_6
+  - first:
+      213: 6322164473808543251
+    second: player_ux_tiles_8x8_sofaspartan_7
+  - first:
+      213: 2325193354565290058
+    second: player_ux_tiles_8x8_sofaspartan_8
+  - first:
+      213: -387610812813852307
+    second: player_ux_tiles_8x8_sofaspartan_9
+  - first:
+      213: -8117781151414172421
+    second: player_ux_tiles_8x8_sofaspartan_10
+  - first:
+      213: 5403098232806963195
+    second: player_ux_tiles_8x8_sofaspartan_11
+  - first:
+      213: -3281239652215793749
+    second: player_ux_tiles_8x8_sofaspartan_12
+  - first:
+      213: -6042395173734603886
+    second: player_ux_tiles_8x8_sofaspartan_13
+  - first:
+      213: -9081059639967763944
+    second: player_ux_tiles_8x8_sofaspartan_14
+  - first:
+      213: 5753562258218391677
+    second: player_ux_tiles_8x8_sofaspartan_15
+  - first:
+      213: -3321317379803997304
+    second: player_ux_tiles_8x8_sofaspartan_16
+  - first:
+      213: 3493113238633649842
+    second: player_ux_tiles_8x8_sofaspartan_17
+  - first:
+      213: 8446512098949231629
+    second: player_ux_tiles_8x8_sofaspartan_18
+  - first:
+      213: -759716158350820542
+    second: player_ux_tiles_8x8_sofaspartan_19
+  - first:
+      213: 3506309190096604128
+    second: player_ux_tiles_8x8_sofaspartan_20
+  - first:
+      213: 3477221941265238940
+    second: player_ux_tiles_8x8_sofaspartan_21
+  - first:
+      213: 8802335573031289577
+    second: player_ux_tiles_8x8_sofaspartan_22
+  - first:
+      213: -4620494565167852108
+    second: player_ux_tiles_8x8_sofaspartan_23
+  - first:
+      213: 6628209681307563389
+    second: player_ux_tiles_8x8_sofaspartan_24
+  - first:
+      213: -3797192141638012314
+    second: player_ux_tiles_8x8_sofaspartan_25
+  - first:
+      213: 1933868059020080985
+    second: player_ux_tiles_8x8_sofaspartan_26
+  - first:
+      213: 1658559630717739910
+    second: player_ux_tiles_8x8_sofaspartan_27
+  - first:
+      213: 4646705879613462259
+    second: player_ux_tiles_8x8_sofaspartan_28
+  - first:
+      213: 5373636452277043059
+    second: player_ux_tiles_8x8_sofaspartan_29
+  - first:
+      213: -5733847757306059414
+    second: player_ux_tiles_8x8_sofaspartan_30
+  - first:
+      213: 1875463689656963251
+    second: player_ux_tiles_8x8_sofaspartan_31
+  - first:
+      213: 1631887489498566626
+    second: player_ux_tiles_8x8_sofaspartan_32
+  - first:
+      213: -7759414831994931695
+    second: player_ux_tiles_8x8_sofaspartan_33
+  - first:
+      213: -5318264630699584618
+    second: player_ux_tiles_8x8_sofaspartan_34
+  - first:
+      213: -1072563425922649900
+    second: player_ux_tiles_8x8_sofaspartan_35
+  - first:
+      213: -3708965370745852247
+    second: player_ux_tiles_8x8_sofaspartan_36
+  - first:
+      213: -8377289549075472767
+    second: player_ux_tiles_8x8_sofaspartan_37
+  - first:
+      213: 1510198921253151443
+    second: player_ux_tiles_8x8_sofaspartan_38
+  - first:
+      213: -5844926002959100440
+    second: player_ux_tiles_8x8_sofaspartan_39
+  - first:
+      213: -1804020452621963412
+    second: player_ux_tiles_8x8_sofaspartan_40
+  - first:
+      213: 2032422420888398968
+    second: player_ux_tiles_8x8_sofaspartan_41
+  - first:
+      213: -507628796606812522
+    second: player_ux_tiles_8x8_sofaspartan_42
+  - first:
+      213: -1258321758755899515
+    second: player_ux_tiles_8x8_sofaspartan_43
+  - first:
+      213: -1084169797942071016
+    second: player_ux_tiles_8x8_sofaspartan_44
+  - first:
+      213: -3926443794680064840
+    second: player_ux_tiles_8x8_sofaspartan_45
+  - first:
+      213: -4951955760038976651
+    second: player_ux_tiles_8x8_sofaspartan_46
+  - first:
+      213: 1335914729049566562
+    second: player_ux_tiles_8x8_sofaspartan_47
+  - first:
+      213: -617362798559843255
+    second: player_ux_tiles_8x8_sofaspartan_48
+  - first:
+      213: 8929950860584834426
+    second: player_ux_tiles_8x8_sofaspartan_49
+  - first:
+      213: 4581437806956549810
+    second: player_ux_tiles_8x8_sofaspartan_50
+  - first:
+      213: -9026558281702399530
+    second: player_ux_tiles_8x8_sofaspartan_51
+  - first:
+      213: 6286663558989394926
+    second: player_ux_tiles_8x8_sofaspartan_52
+  - first:
+      213: -2727290308178059967
+    second: player_ux_tiles_8x8_sofaspartan_53
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 8
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: player_ux_tiles_8x8_sofaspartan_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1b4ce32615be6af0800000000000000
+      internalID: -401184210092799206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_ux_tiles_8x8_sofaspartan_1
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 48
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c59fb92ba1501e690800000000000000
+      internalID: -7574767486036608676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_ux_tiles_8x8_sofaspartan_2
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 48
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af610db9b720081d0800000000000000
+      internalID: -3350675392845310214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_ux_tiles_8x8_sofaspartan_3
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 48
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b2378864ac316180800000000000000
+      internalID: -9123944693249920330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_ux_tiles_8x8_sofaspartan_4
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 48
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eacd96b0d531c5190800000000000000
+      internalID: -7972475950008247122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_ux_tiles_8x8_sofaspartan_5
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 48
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e49aa49640d52d8c0800000000000000
+      internalID: -3976013247486973618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_ux_tiles_8x8_sofaspartan_6
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 766f2710b363111d0800000000000000
+      internalID: -3381862218123250073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_ux_tiles_8x8_sofaspartan_7
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 48
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31ed3f8b717dcb750800000000000000
+      internalID: 6322164473808543251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_ux_tiles_8x8_sofaspartan_8
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 48
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4886fc590fb44020800000000000000
+      internalID: 2325193354565290058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_ux_tiles_8x8_sofaspartan_9
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 48
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d614127f40eee9af0800000000000000
+      internalID: -387610812813852307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_ux_tiles_8x8_sofaspartan_10
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 48
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf4c8997d09d75f80800000000000000
+      internalID: -8117781151414172421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_ux_tiles_8x8_sofaspartan_11
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 48
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf7fff44739abfa40800000000000000
+      internalID: 5403098232806963195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_ux_tiles_8x8_sofaspartan_12
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 48
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba750cacbe1b672d0800000000000000
+      internalID: -3281239652215793749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_ux_tiles_8x8_sofaspartan_13
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 48
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 293a30d7a99152ca0800000000000000
+      internalID: -6042395173734603886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_ux_tiles_8x8_sofaspartan_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 40
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 812b597fe5899f180800000000000000
+      internalID: -9081059639967763944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_ux_tiles_8x8_sofaspartan_15
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 40
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d789332e362c8df40800000000000000
+      internalID: 5753562258218391677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_ux_tiles_8x8_sofaspartan_16
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 40
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88b937ea07f48e1d0800000000000000
+      internalID: -3321317379803997304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_ux_tiles_8x8_sofaspartan_17
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 40
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b619f4bbf70a7030800000000000000
+      internalID: 3493113238633649842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_ux_tiles_8x8_sofaspartan_18
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 40
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0478e0a00a083570800000000000000
+      internalID: 8446512098949231629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_ux_tiles_8x8_sofaspartan_19
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 40
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24bff5bdd22f475f0800000000000000
+      internalID: -759716158350820542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_ux_tiles_8x8_sofaspartan_20
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 40
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eb456491a9e8a030800000000000000
+      internalID: 3506309190096604128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_ux_tiles_8x8_sofaspartan_21
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 40
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9b0f46bee2914030800000000000000
+      internalID: 3477221941265238940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_ux_tiles_8x8_sofaspartan_22
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 40
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e28050219d282a70800000000000000
+      internalID: 8802335573031289577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_ux_tiles_8x8_sofaspartan_23
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 40
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b51c846ca4b0efb0800000000000000
+      internalID: -4620494565167852108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_ux_tiles_8x8_sofaspartan_24
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 40
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d75742f56912cfb50800000000000000
+      internalID: 6628209681307563389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_ux_tiles_8x8_sofaspartan_25
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 40
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 662f2c59dd9ad4bc0800000000000000
+      internalID: -3797192141638012314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_ux_tiles_8x8_sofaspartan_26
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 40
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 957bd5ce0ca76da10800000000000000
+      internalID: 1933868059020080985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_ux_tiles_8x8_sofaspartan_27
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 40
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 683ebbb5233640710800000000000000
+      internalID: 1658559630717739910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_ux_tiles_8x8_sofaspartan_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f65412d06a6c7040800000000000000
+      internalID: 4646705879613462259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_ux_tiles_8x8_sofaspartan_29
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 32
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37f3012f1edf29a40800000000000000
+      internalID: 5373636452277043059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_ux_tiles_8x8_sofaspartan_30
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 32
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a652a9d08d74d60b0800000000000000
+      internalID: -5733847757306059414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_ux_tiles_8x8_sofaspartan_31
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 32
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b095230a4cf60a10800000000000000
+      internalID: 1875463689656963251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_ux_tiles_8x8_sofaspartan_32
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ef47fc8601a5a610800000000000000
+      internalID: 1631887489498566626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_ux_tiles_8x8_sofaspartan_33
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 32
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1167b0a4255015490800000000000000
+      internalID: -7759414831994931695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_ux_tiles_8x8_sofaspartan_34
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 32
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69390a9ee7ab136b0800000000000000
+      internalID: -5318264630699584618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_ux_tiles_8x8_sofaspartan_35
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 32
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d0fdce2f3d7d11f0800000000000000
+      internalID: -1072563425922649900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_ux_tiles_8x8_sofaspartan_36
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9aee77075ab178cc0800000000000000
+      internalID: -3708965370745852247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_ux_tiles_8x8_sofaspartan_37
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 32
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18e93c63a83edbb80800000000000000
+      internalID: -8377289549075472767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_ux_tiles_8x8_sofaspartan_38
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 32
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d2e871eaed45f410800000000000000
+      internalID: 1510198921253151443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_ux_tiles_8x8_sofaspartan_39
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 32
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e5dd2f94c6a2eea0800000000000000
+      internalID: -5844926002959100440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_ux_tiles_8x8_sofaspartan_40
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6fade9d4f4d6f6e0800000000000000
+      internalID: -1804020452621963412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_ux_tiles_8x8_sofaspartan_41
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 32
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87ca79e6c6d943c10800000000000000
+      internalID: 2032422420888398968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_ux_tiles_8x8_sofaspartan_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 24
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69eed7c8c4a84f8f0800000000000000
+      internalID: -507628796606812522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_ux_tiles_8x8_sofaspartan_43
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 24
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 587b53cf60b898ee0800000000000000
+      internalID: -1258321758755899515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_ux_tiles_8x8_sofaspartan_44
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 24
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 811b47d105144f0f0800000000000000
+      internalID: -1084169797942071016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_ux_tiles_8x8_sofaspartan_45
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 24
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b4de830c287289c0800000000000000
+      internalID: -3926443794680064840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_ux_tiles_8x8_sofaspartan_46
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 24
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5736d6b097e174bb0800000000000000
+      internalID: -4951955760038976651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_ux_tiles_8x8_sofaspartan_47
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 24
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26d263b3e5f1a8210800000000000000
+      internalID: 1335914729049566562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_ux_tiles_8x8_sofaspartan_48
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 24
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94cac4e3ecfae67f0800000000000000
+      internalID: -617362798559843255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_ux_tiles_8x8_sofaspartan_49
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 24
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a755adaaefe8deb70800000000000000
+      internalID: 8929950860584834426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_ux_tiles_8x8_sofaspartan_50
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 24
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b690347969849f30800000000000000
+      internalID: 4581437806956549810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_ux_tiles_8x8_sofaspartan_51
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 24
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d1a4ca41193bb280800000000000000
+      internalID: -9026558281702399530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_ux_tiles_8x8_sofaspartan_52
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 24
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee3b4ffd237be3750800000000000000
+      internalID: 6286663558989394926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_ux_tiles_8x8_sofaspartan_53
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 24
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14d5ead1ae7b62ad0800000000000000
+      internalID: -2727290308178059967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_ux_tiles_8x8_sofaspartan_54
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 24
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ba7be9b5874f804fb1ebbba5767c8f9
+      internalID: 538788772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_ux_tiles_8x8_sofaspartan_55
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 24
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a64062a1e082a5418375f4140e7ae4c
+      internalID: -1950953177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_ux_tiles_8x8_sofaspartan_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 673cf145b877e7c4ea7c25a3238f47b2
+      internalID: -767684127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_ux_tiles_8x8_sofaspartan_57
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 16
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de6d85c2001c0b1459d8594434b7d737
+      internalID: -1007988957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_ux_tiles_8x8_sofaspartan_58
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 16
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da77673917bd1614794afd7a4822dc62
+      internalID: -1498072569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_ux_tiles_8x8_sofaspartan_59
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 16
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5756088d2c44e604bb0120dc3faf58c8
+      internalID: -198566449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_ux_tiles_8x8_sofaspartan_60
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 16
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5827cbb112ff12f47a507c806841761b
+      internalID: -1977277283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_ux_tiles_8x8_sofaspartan_61
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 16
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bc6b24fcd797c840a365dbec4a1d839
+      internalID: 808012611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_ux_tiles_8x8_sofaspartan_62
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 16
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 413f2f25ef9407c479d3366b936bd502
+      internalID: -709198248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_ux_tiles_8x8_sofaspartan_63
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 16
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00016473a436dc540b635c1476fcde4f
+      internalID: -288379731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_ux_tiles_8x8_sofaspartan_64
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 16
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12f605c83c3e904479bae33a38532a92
+      internalID: 56887438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_ux_tiles_8x8_sofaspartan_65
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 16
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a626020b8dc695b40bdc1e8bf2489f50
+      internalID: -826170379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_ux_tiles_8x8_sofaspartan_66
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 16
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e5cf5e93fde03845a37426bf4adaec7
+      internalID: -1407039616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_ux_tiles_8x8_sofaspartan_67
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 16
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22a0ccb151f3a7247a6735ba0cb51b66
+      internalID: 1079255604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_ux_tiles_8x8_sofaspartan_68
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 16
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e95834a49ed8b3b42a5d2d9da943a675
+      internalID: 1542349079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_ux_tiles_8x8_sofaspartan_69
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 16
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef50593c0fc41d24d9b56a7f1c8f57f6
+      internalID: -1612938522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_ux_tiles_8x8_sofaspartan_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d403cb3f5ce1cbc468885ffd8db3331c
+      internalID: -455053526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_ux_tiles_8x8_sofaspartan_71
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 8
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dbf135fd54f8294b81d9260939f546f
+      internalID: 1261147013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_ux_tiles_8x8_sofaspartan_72
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 8
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 856aeb3e2acff6944a0ad19462aa52fb
+      internalID: 758141976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_ux_tiles_8x8_sofaspartan_73
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 8
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03b907aa90d13d549bded23acd83aec5
+      internalID: -2191952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_ux_tiles_8x8_sofaspartan_74
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 8
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb57db6d10eeffc40950055daceba453
+      internalID: -1794285275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_ux_tiles_8x8_sofaspartan_75
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 8
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7941ffe6475a224696d8a00a6fa89d7
+      internalID: -1110893202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_ux_tiles_8x8_sofaspartan_76
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 8
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b8e04f97898fa643b2c46ccac296d04
+      internalID: 1014757678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_ux_tiles_8x8_sofaspartan_77
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 8
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73b8d4875ef171b4080a23f069c28bea
+      internalID: -538071608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_ux_tiles_8x8_sofaspartan_78
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 8
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2914eb210ff34f14eb05601e3045b9ec
+      internalID: -1813550721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_ux_tiles_8x8_sofaspartan_79
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 8
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dc08c1292a344946924d3071041e830
+      internalID: 1815228792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_ux_tiles_8x8_sofaspartan_80
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 8
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e0795b415ea49444b0c48cc31dda8f5
+      internalID: 2078147825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_ux_tiles_8x8_sofaspartan_81
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 8
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e4c28add25bde64f92e4153827b28a2
+      internalID: 957494833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_ux_tiles_8x8_sofaspartan_82
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 8
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95e343173dd689d48bdcc125d4da0f14
+      internalID: -1337917853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_ux_tiles_8x8_sofaspartan_83
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 8
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5cbb0cc21ee80248a14fe9a338d6972
+      internalID: -980731845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_ux_tiles_8x8_sofaspartan_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e39c42b887560df4fb1db63fcf368888
+      internalID: 1926588505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_ux_tiles_8x8_sofaspartan_85
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 0
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ef75b10ffa145f4abf6bd51d5df8233
+      internalID: -2138166683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_ux_tiles_8x8_sofaspartan_86
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07be252f7c073364dbc9920661b60697
+      internalID: 70627496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_ux_tiles_8x8_sofaspartan_87
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 0
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c826f09f29e7de49bc45704403e56f0
+      internalID: 1205169123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_ux_tiles_8x8_sofaspartan_88
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2e0f2a3895683c4e99a05a4c622412a
+      internalID: -786786672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_ux_tiles_8x8_sofaspartan_89
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 0
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34ca1c6403e6950449f4ec9f9982ba48
+      internalID: 570005738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_ux_tiles_8x8_sofaspartan_90
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90475bf29b6c6c2428d45c45960d8d22
+      internalID: 1178987183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_ux_tiles_8x8_sofaspartan_91
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 0
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 511474363550518409da8bb21fe1eec5
+      internalID: -1631950541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_ux_tiles_8x8_sofaspartan_92
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f662c7a96935d074692bc08015908547
+      internalID: -2133121494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_ux_tiles_8x8_sofaspartan_93
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 0
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fc26b81c9144444ca71a3839b9f271b
+      internalID: 1930023870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_ux_tiles_8x8_sofaspartan_94
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eabca54734810974aa69371a2019cff6
+      internalID: 1849039869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_ux_tiles_8x8_sofaspartan_95
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 0
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f112c363b8e04741ae707be2c869970
+      internalID: 885699187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_ux_tiles_8x8_sofaspartan_96
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1c5333613d198d478eb46f78392126d
+      internalID: 1915238561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_ux_tiles_8x8_sofaspartan_97
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 0
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d47ee1ca4b2c38f4fbf9659bb4c2538a
+      internalID: 445932037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: f95ed58d25facc24586a800e0b94d8e3
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":8.0,"y":8.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      player_ux_tiles_8x8_sofaspartan_0: -401184210092799206
+      player_ux_tiles_8x8_sofaspartan_1: -7574767486036608676
+      player_ux_tiles_8x8_sofaspartan_10: -8117781151414172421
+      player_ux_tiles_8x8_sofaspartan_11: 5403098232806963195
+      player_ux_tiles_8x8_sofaspartan_12: -3281239652215793749
+      player_ux_tiles_8x8_sofaspartan_13: -6042395173734603886
+      player_ux_tiles_8x8_sofaspartan_14: -9081059639967763944
+      player_ux_tiles_8x8_sofaspartan_15: 5753562258218391677
+      player_ux_tiles_8x8_sofaspartan_16: -3321317379803997304
+      player_ux_tiles_8x8_sofaspartan_17: 3493113238633649842
+      player_ux_tiles_8x8_sofaspartan_18: 8446512098949231629
+      player_ux_tiles_8x8_sofaspartan_19: -759716158350820542
+      player_ux_tiles_8x8_sofaspartan_2: -3350675392845310214
+      player_ux_tiles_8x8_sofaspartan_20: 3506309190096604128
+      player_ux_tiles_8x8_sofaspartan_21: 3477221941265238940
+      player_ux_tiles_8x8_sofaspartan_22: 8802335573031289577
+      player_ux_tiles_8x8_sofaspartan_23: -4620494565167852108
+      player_ux_tiles_8x8_sofaspartan_24: 6628209681307563389
+      player_ux_tiles_8x8_sofaspartan_25: -3797192141638012314
+      player_ux_tiles_8x8_sofaspartan_26: 1933868059020080985
+      player_ux_tiles_8x8_sofaspartan_27: 1658559630717739910
+      player_ux_tiles_8x8_sofaspartan_28: 4646705879613462259
+      player_ux_tiles_8x8_sofaspartan_29: 5373636452277043059
+      player_ux_tiles_8x8_sofaspartan_3: -9123944693249920330
+      player_ux_tiles_8x8_sofaspartan_30: -5733847757306059414
+      player_ux_tiles_8x8_sofaspartan_31: 1875463689656963251
+      player_ux_tiles_8x8_sofaspartan_32: 1631887489498566626
+      player_ux_tiles_8x8_sofaspartan_33: -7759414831994931695
+      player_ux_tiles_8x8_sofaspartan_34: -5318264630699584618
+      player_ux_tiles_8x8_sofaspartan_35: -1072563425922649900
+      player_ux_tiles_8x8_sofaspartan_36: -3708965370745852247
+      player_ux_tiles_8x8_sofaspartan_37: -8377289549075472767
+      player_ux_tiles_8x8_sofaspartan_38: 1510198921253151443
+      player_ux_tiles_8x8_sofaspartan_39: -5844926002959100440
+      player_ux_tiles_8x8_sofaspartan_4: -7972475950008247122
+      player_ux_tiles_8x8_sofaspartan_40: -1804020452621963412
+      player_ux_tiles_8x8_sofaspartan_41: 2032422420888398968
+      player_ux_tiles_8x8_sofaspartan_42: -507628796606812522
+      player_ux_tiles_8x8_sofaspartan_43: -1258321758755899515
+      player_ux_tiles_8x8_sofaspartan_44: -1084169797942071016
+      player_ux_tiles_8x8_sofaspartan_45: -3926443794680064840
+      player_ux_tiles_8x8_sofaspartan_46: -4951955760038976651
+      player_ux_tiles_8x8_sofaspartan_47: 1335914729049566562
+      player_ux_tiles_8x8_sofaspartan_48: -617362798559843255
+      player_ux_tiles_8x8_sofaspartan_49: 8929950860584834426
+      player_ux_tiles_8x8_sofaspartan_5: -3976013247486973618
+      player_ux_tiles_8x8_sofaspartan_50: 4581437806956549810
+      player_ux_tiles_8x8_sofaspartan_51: -9026558281702399530
+      player_ux_tiles_8x8_sofaspartan_52: 6286663558989394926
+      player_ux_tiles_8x8_sofaspartan_53: -2727290308178059967
+      player_ux_tiles_8x8_sofaspartan_54: 538788772
+      player_ux_tiles_8x8_sofaspartan_55: -1950953177
+      player_ux_tiles_8x8_sofaspartan_56: -767684127
+      player_ux_tiles_8x8_sofaspartan_57: -1007988957
+      player_ux_tiles_8x8_sofaspartan_58: -1498072569
+      player_ux_tiles_8x8_sofaspartan_59: -198566449
+      player_ux_tiles_8x8_sofaspartan_6: -3381862218123250073
+      player_ux_tiles_8x8_sofaspartan_60: -1977277283
+      player_ux_tiles_8x8_sofaspartan_61: 808012611
+      player_ux_tiles_8x8_sofaspartan_62: -709198248
+      player_ux_tiles_8x8_sofaspartan_63: -288379731
+      player_ux_tiles_8x8_sofaspartan_64: 56887438
+      player_ux_tiles_8x8_sofaspartan_65: -826170379
+      player_ux_tiles_8x8_sofaspartan_66: -1407039616
+      player_ux_tiles_8x8_sofaspartan_67: 1079255604
+      player_ux_tiles_8x8_sofaspartan_68: 1542349079
+      player_ux_tiles_8x8_sofaspartan_69: -1612938522
+      player_ux_tiles_8x8_sofaspartan_7: 6322164473808543251
+      player_ux_tiles_8x8_sofaspartan_70: -455053526
+      player_ux_tiles_8x8_sofaspartan_71: 1261147013
+      player_ux_tiles_8x8_sofaspartan_72: 758141976
+      player_ux_tiles_8x8_sofaspartan_73: -2191952
+      player_ux_tiles_8x8_sofaspartan_74: -1794285275
+      player_ux_tiles_8x8_sofaspartan_75: -1110893202
+      player_ux_tiles_8x8_sofaspartan_76: 1014757678
+      player_ux_tiles_8x8_sofaspartan_77: -538071608
+      player_ux_tiles_8x8_sofaspartan_78: -1813550721
+      player_ux_tiles_8x8_sofaspartan_79: 1815228792
+      player_ux_tiles_8x8_sofaspartan_8: 2325193354565290058
+      player_ux_tiles_8x8_sofaspartan_80: 2078147825
+      player_ux_tiles_8x8_sofaspartan_81: 957494833
+      player_ux_tiles_8x8_sofaspartan_82: -1337917853
+      player_ux_tiles_8x8_sofaspartan_83: -980731845
+      player_ux_tiles_8x8_sofaspartan_84: 1926588505
+      player_ux_tiles_8x8_sofaspartan_85: -2138166683
+      player_ux_tiles_8x8_sofaspartan_86: 70627496
+      player_ux_tiles_8x8_sofaspartan_87: 1205169123
+      player_ux_tiles_8x8_sofaspartan_88: -786786672
+      player_ux_tiles_8x8_sofaspartan_89: 570005738
+      player_ux_tiles_8x8_sofaspartan_9: -387610812813852307
+      player_ux_tiles_8x8_sofaspartan_90: 1178987183
+      player_ux_tiles_8x8_sofaspartan_91: -1631950541
+      player_ux_tiles_8x8_sofaspartan_92: -2133121494
+      player_ux_tiles_8x8_sofaspartan_93: 1930023870
+      player_ux_tiles_8x8_sofaspartan_94: 1849039869
+      player_ux_tiles_8x8_sofaspartan_95: 885699187
+      player_ux_tiles_8x8_sofaspartan_96: 1915238561
+      player_ux_tiles_8x8_sofaspartan_97: 445932037
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
