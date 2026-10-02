@@ -18,6 +18,7 @@ public class LifePanel : MonoBehaviour
     public void UpdateLife( int life)
     {
         int currentLife = life;
+        Debug.Log(listLifeIcon.Count);
         foreach(RectTransform lifeIcon in listLifeIcon)
         {
             if(currentLife > 0)
