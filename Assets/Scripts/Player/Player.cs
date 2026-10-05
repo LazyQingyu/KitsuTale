@@ -38,7 +38,16 @@ public class Player : MonoBehaviour
         _player_anim.SetDeathAnim(true);
         life--;
         isDead?.Invoke(life);
-        StartCoroutine(Respawn());
+        if(life <= 0)
+        {
+            GameManager.instance.lifeSaved = 3;
+            GameManager.instance.scoreSaved = 0;
+            StartCoroutine(GameOVerRespawn());
+        }
+        else
+        {
+            StartCoroutine(Respawn()); 
+        }
 
     }
 
@@ -94,6 +103,28 @@ public class Player : MonoBehaviour
         
         // Charge le checkpoint
         Level.current_level.LoadCheckpoint();
+
+        // Arrête l'animation de mort
+        _player_anim.SetDeathAnim(false);
+
+
+        GameManager.instance.screen_transition.Hide();
+        yield return new WaitForSeconds(GameManager.instance.screen_transition.transition_duration); // Attend que l'écran termine son fade in
+        
+
+        // Réactive le contrôle
+        _player_control.SetFreeze(false);
+    }
+
+       public IEnumerator GameOVerRespawn()
+    {
+        yield return new WaitForSeconds(0.5f);
+        
+        GameManager.instance.screen_transition.Show();
+        yield return new WaitForSeconds(GameManager.instance.screen_transition.transition_duration); // Attend que l'écran termine son fade in
+        
+        // Charge le checkpoint
+        GameManager.instance.GameOver();
 
         // Arrête l'animation de mort
         _player_anim.SetDeathAnim(false);
