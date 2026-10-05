@@ -9,10 +9,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7340346133614699868}
+  - component: {fileID: 6959425797135631366}
   - component: {fileID: 4309209196356711154}
   - component: {fileID: 5140203781815066472}
   - component: {fileID: 6394573337414834389}
-  - component: {fileID: 6959425797135631366}
   m_Layer: 7
   m_Name: Enemy_Frog
   m_TagString: Untagged
@@ -36,6 +36,32 @@ Transform:
   - {fileID: 8546061610931636896}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6959425797135631366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1921320312113265319}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 917ac2dfd8d5bed4dbbf12dbdff7bd0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Enemy
+  moveType: 1
+  speed: 2.5
+  gravity: -18
+  facing_left: 1
+  is_flying: 0
+  ground_check_dist: 0.15
+  pit_check_dist: 0.5
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  sprite: {fileID: 5343926231449684486}
+  kill_fX: {fileID: 2488384656899237757, guid: 0902f13a2966fba47a33bcba39ec9e2f, type: 3}
+  patrol_pos: []
+  distance_before_point_change: 0.2
 --- !u!50 &4309209196356711154
 Rigidbody2D:
   serializedVersion: 5
@@ -145,32 +171,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.28634647, y: 0.21446529}
   m_EdgeRadius: 0
---- !u!114 &6959425797135631366
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1921320312113265319}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 917ac2dfd8d5bed4dbbf12dbdff7bd0f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Enemy
-  moveType: 1
-  speed: 2.5
-  gravity: -18
-  facing_left: 1
-  is_flying: 0
-  ground_check_dist: 0.15
-  pit_check_dist: 0.5
-  groundLayer:
-    serializedVersion: 2
-    m_Bits: 256
-  sprite: {fileID: 5343926231449684486}
-  kill_fX: {fileID: 2488384656899237757, guid: 0902f13a2966fba47a33bcba39ec9e2f, type: 3}
-  patrol_pos: []
-  distance_before_point_change: 0.2
 --- !u!1 &7374382483519578339
 GameObject:
   m_ObjectHideFlags: 0

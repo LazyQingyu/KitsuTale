@@ -28,7 +28,7 @@ public class Player : MonoBehaviour
         _player_anim = GetComponent<PlayerAnim>();
         score = GameManager.instance.scoreSaved;
         life = GameManager.instance.lifeSaved;
-
+        Debug.Log("player "+life);
     }
 
     public void Kill()
@@ -38,10 +38,8 @@ public class Player : MonoBehaviour
         _player_anim.SetDeathAnim(true);
         life--;
         isDead?.Invoke(life);
-        if(life <= 0)
+        if(life < 0)
         {
-            GameManager.instance.lifeSaved = 3;
-            GameManager.instance.scoreSaved = 0;
             StartCoroutine(GameOVerRespawn());
         }
         else
@@ -51,19 +49,22 @@ public class Player : MonoBehaviour
 
     }
 
+    public void SetScore()
+    {
+        score = 0;
+    }
     public int GetScore()
     {
         return score;
     }
 
+    public void SetLife()
+    {
+        life = 3;
+    }
     public int GetLife()
     {
         return life;
-    }
-
-    int NormalizeLife(int value)
-    {
-        return (life <= 0)? life = 0: life;
     }
 
     public void AddCoin()
@@ -126,16 +127,6 @@ public class Player : MonoBehaviour
         // Charge le checkpoint
         GameManager.instance.GameOver();
 
-        // Arrête l'animation de mort
-        _player_anim.SetDeathAnim(false);
-
-
-        GameManager.instance.screen_transition.Hide();
-        yield return new WaitForSeconds(GameManager.instance.screen_transition.transition_duration); // Attend que l'écran termine son fade in
-        
-
-        // Réactive le contrôle
-        _player_control.SetFreeze(false);
     }
 
     public void Teleport(Vector2 position)

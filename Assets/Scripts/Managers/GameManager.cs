@@ -71,9 +71,17 @@ public class GameManager : MonoBehaviour
         ChangeScene(SceneManager.GetActiveScene().buildIndex);
     }
 
+    void ResetPlayerState()
+    {
+        Level.current_level.player.SetLife();
+        Level.current_level.player.SetScore();
+    }
     public void GameOver()
     {
         ChangeScene(1);
+        lifeSaved = 3;
+        scoreSaved = 0;
+        ResetPlayerState();
     }
     private IEnumerator LoadScene(int scene_index)
     {
