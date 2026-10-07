@@ -16,6 +16,7 @@ public class PlayerAnim : MonoBehaviour
     [SerializeField] private AudioSource jump_audio_source;
     [SerializeField] private AudioSource step_audio_source;
     [SerializeField] private AudioSource death_audio_source;
+    [SerializeField] private AudioSource dash_audio_source;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -65,6 +66,11 @@ public class PlayerAnim : MonoBehaviour
         
         // Audio
         if (jump_audio_source) jump_audio_source.Play();
+    }
+
+    public void DashFX(bool value)
+    {
+        if (value && dash_audio_source) dash_audio_source.Play();
     }
 
     public void LandFX()

@@ -14,7 +14,6 @@ public class LifePanel : MonoBehaviour
 
     void OnDestroy()
     {
-        Debug.Log("Destroy life trigger");
         Player.isDead -= UpdateLife;
     }
     void InitializedLife()

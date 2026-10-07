@@ -2,6 +2,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.Events;
+using System.Collections;
 
 public class PlayerController : MonoBehaviour
 {
@@ -9,6 +10,7 @@ public class PlayerController : MonoBehaviour
     Rigidbody2D body2D;
     
     [SerializeField] private float speed = 10f;
+    [SerializeField] private float dashForce = 30f;
     [SerializeField] private float gravity = -18f;
     [SerializeField] private float ground_check_dist = 0.15f;
     [SerializeField] private float jump_force = 10f;
@@ -26,6 +28,8 @@ public class PlayerController : MonoBehaviour
     private bool jump_released;
     private bool jump_hold;
     private bool is_grounded;
+    private bool is_dash_enable;
+    private bool in_dash_animation;
 
     public bool grounded {get {return is_grounded;}}
     public Vector2 MoveDir {get {return move_dir;}}
@@ -55,7 +59,7 @@ public class PlayerController : MonoBehaviour
 
         // Récupère le rigidbody 2D
         body2D = GetComponent<Rigidbody2D>();
-
+        in_dash_animation = false;
     }
 
     void Start()
@@ -81,6 +85,8 @@ public class PlayerController : MonoBehaviour
         // Vérifie si le joueur touche le sol
         is_grounded = Ground_check();
 
+        if(Ground_check()){is_dash_enable = true;}
+
         // Si le joueur tombe et que le multiplicateur de gravité est différent de la chute, change le multiplicateur de gravité
         if (move_dir.y < 0 && gravity_multiplier != fall_gravity_multiplier)
         {
@@ -101,7 +107,10 @@ public class PlayerController : MonoBehaviour
         }
 
         // Applique la vélocité modifiée au rigidbody.
-        body2D.linearVelocity = move_dir;
+        if (!in_dash_animation)
+        {
+            body2D.linearVelocity = move_dir;
+        }
 
         // Réduit les timers s'ils sont supérieurs à zéro
         if (coyote_time_timer > 0)
@@ -157,15 +166,17 @@ public class PlayerController : MonoBehaviour
 
     void HanddleJumpInput()
     {
-        
         if (jump_press)
         {
             // Le bouton de jump vient d'être appuyé
-
             if (is_grounded || coyote_time_timer > 0)
             {
                 // Si le joueur touche le sol ou le coyote time timer est actif, saute.
                 Jump();
+            }else if (!is_grounded && is_dash_enable && jump_press && !in_dash_animation)
+            {
+                Debug.Log("Dash Forward !!");
+                DashForward();
             }
         }
         
@@ -185,7 +196,37 @@ public class PlayerController : MonoBehaviour
         jump_released = false;
     }
 
-    
+    void DashForward()
+    {
+        StartCoroutine(Dash());
+    }
+    IEnumerator Dash()
+    {   
+
+        Initialized_Dash(true);
+        Vector2 move_direction = new Vector2(body2D.linearVelocityX, 0) * dashForce;
+        body2D.AddForce(move_direction, ForceMode2D.Impulse);
+
+        yield return new WaitForSeconds(0.2f);
+        Initialized_Dash(false);
+    }
+
+    void Initialized_Dash(bool value)
+    {
+        if (value)
+        {
+            in_dash_animation = true;
+            is_dash_enable = false;
+            body2D.constraints = RigidbodyConstraints2D.FreezePositionY;
+        }
+        else
+        {
+            body2D.constraints = RigidbodyConstraints2D.None;
+            body2D.constraints = RigidbodyConstraints2D.FreezeRotation;
+            in_dash_animation = false;
+        }
+
+    }
 
     public void Jump()
     {

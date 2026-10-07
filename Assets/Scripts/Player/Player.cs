@@ -28,7 +28,6 @@ public class Player : MonoBehaviour
         _player_anim = GetComponent<PlayerAnim>();
         score = GameManager.instance.scoreSaved;
         life = GameManager.instance.lifeSaved;
-        Debug.Log("player "+life);
     }
 
     public void Kill()
