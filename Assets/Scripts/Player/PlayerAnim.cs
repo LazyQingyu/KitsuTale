@@ -11,6 +11,7 @@ public class PlayerAnim : MonoBehaviour
     [Header("Fx")]
     [SerializeField] private GameObject landParticles;
     [SerializeField] private GameObject jump_particles;
+    [SerializeField] private GameObject dash_particles;
     
     [Header("Sound")]
     [SerializeField] private AudioSource jump_audio_source;
@@ -45,8 +46,16 @@ public class PlayerAnim : MonoBehaviour
         animator.SetBool("Grounded" , player_control.grounded);
         animator.SetBool("Moving", player_control.MoveDir.x != 0);
         animator.SetFloat("VSpeed", player_control.MoveDir.y);
+        animator.SetBool("isStomping",player_control.performStomp);
     }
 
+    public void StompFx()
+    {
+        if (animator != null)
+        {
+            animator.SetTrigger("Stomp");
+        }
+    }
     public void JumpFx()
     {
         if (animator != null)
@@ -68,9 +77,11 @@ public class PlayerAnim : MonoBehaviour
         if (jump_audio_source) jump_audio_source.Play();
     }
 
-    public void DashFX(bool value)
+    public void DashFX()
     {
-        if (value && dash_audio_source) dash_audio_source.Play();
+        if(dash_particles) Instantiate(dash_particles,transform.position,Quaternion.identity);
+        sprite_renderer.transform.localScale = new Vector3(1.3f,0.75f,0);
+        if (dash_audio_source) dash_audio_source.Play();
     }
 
     public void LandFX()

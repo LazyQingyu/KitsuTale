@@ -60257,34 +60257,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1728348993143298509, guid: 83b171b6554781a4a992b01b4f385ac0, type: 3}
-      propertyPath: OnScoreChanged.m_PersistentCalls.m_Calls.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1728348993143298509, guid: 83b171b6554781a4a992b01b4f385ac0, type: 3}
-      propertyPath: OnScoreChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1728348993143298509, guid: 83b171b6554781a4a992b01b4f385ac0, type: 3}
-      propertyPath: OnScoreChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 1728348993143298509, guid: 83b171b6554781a4a992b01b4f385ac0, type: 3}
-      propertyPath: OnScoreChanged.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1728348993143298509, guid: 83b171b6554781a4a992b01b4f385ac0, type: 3}
-      propertyPath: OnScoreChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: UpdateScore
-      objectReference: {fileID: 0}
-    - target: {fileID: 1728348993143298509, guid: 83b171b6554781a4a992b01b4f385ac0, type: 3}
-      propertyPath: OnScoreChanged.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: CoinPanel, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 1728348993143298509, guid: 83b171b6554781a4a992b01b4f385ac0, type: 3}
-      propertyPath: OnScoreChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
     - target: {fileID: 4097944673771716552, guid: 83b171b6554781a4a992b01b4f385ac0, type: 3}
       propertyPath: m_Name
       value: Player
@@ -60329,19 +60301,58 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8224518193906162889, guid: 83b171b6554781a4a992b01b4f385ac0, type: 3}
-      propertyPath: m_Pitch
+    - target: {fileID: 5415890336967132812, guid: 83b171b6554781a4a992b01b4f385ac0, type: 3}
+      propertyPath: dash_particles
+      value: 
+      objectReference: {fileID: 173030178732180961, guid: 80f3c26ac0e9e6045a5097b87969b71f, type: 3}
+    - target: {fileID: 8134963780319981598, guid: 83b171b6554781a4a992b01b4f385ac0, type: 3}
+      propertyPath: OnDash.m_PersistentCalls.m_Calls.Array.size
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 8224518193906162889, guid: 83b171b6554781a4a992b01b4f385ac0, type: 3}
-      propertyPath: m_Volume
-      value: 0.5
+    - target: {fileID: 8134963780319981598, guid: 83b171b6554781a4a992b01b4f385ac0, type: 3}
+      propertyPath: OnDash.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8134963780319981598, guid: 83b171b6554781a4a992b01b4f385ac0, type: 3}
+      propertyPath: OnDash.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 5842241845336798454}
+    - target: {fileID: 8134963780319981598, guid: 83b171b6554781a4a992b01b4f385ac0, type: 3}
+      propertyPath: OnDash.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8134963780319981598, guid: 83b171b6554781a4a992b01b4f385ac0, type: 3}
+      propertyPath: OnDash.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: DashFX
+      objectReference: {fileID: 0}
+    - target: {fileID: 8134963780319981598, guid: 83b171b6554781a4a992b01b4f385ac0, type: 3}
+      propertyPath: OnDash.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: PlayerAnim, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8134963780319981598, guid: 83b171b6554781a4a992b01b4f385ac0, type: 3}
+      propertyPath: OnDash.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8134963780319981598, guid: 83b171b6554781a4a992b01b4f385ac0, type: 3}
+      propertyPath: OnDash.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 83b171b6554781a4a992b01b4f385ac0, type: 3}
+--- !u!114 &5842241845336798454 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5415890336967132812, guid: 83b171b6554781a4a992b01b4f385ac0, type: 3}
+  m_PrefabInstance: {fileID: 5842241845336798453}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a434ef368880124d8a628ef7ea0022b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerAnim
 --- !u!1001 &6165329674357599472
 PrefabInstance:
   m_ObjectHideFlags: 0

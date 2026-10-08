@@ -3,6 +3,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.Events;
 using System.Collections;
+using UnityEngine.Android;
 
 public class PlayerController : MonoBehaviour
 {
@@ -10,7 +11,8 @@ public class PlayerController : MonoBehaviour
     Rigidbody2D body2D;
     
     [SerializeField] private float speed = 10f;
-    [SerializeField] private float dashForce = 30f;
+    [SerializeField] private float dash_force = 50f;
+    [SerializeField] private float stomp_force = 30f;
     [SerializeField] private float gravity = -18f;
     [SerializeField] private float ground_check_dist = 0.15f;
     [SerializeField] private float jump_force = 10f;
@@ -18,6 +20,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float fall_gravity_multiplier = 1.2f;
     [SerializeField] private float coyote_time_duration = 0.5f;
     [SerializeField] private float jump_buffer_time_duration = 1.2f;
+    [SerializeField] private float stomp_startup_freeze = 0.5f;
     [SerializeField] private LayerMask groundLayer;
     
     private bool is_freeze = false;
@@ -30,9 +33,13 @@ public class PlayerController : MonoBehaviour
     private bool is_grounded;
     private bool is_dash_enable;
     private bool in_dash_animation;
+    private bool is_stomp_enable;
+    private bool in_stomp_animation; 
+    private bool down_press;
 
     public bool grounded {get {return is_grounded;}}
     public Vector2 MoveDir {get {return move_dir;}}
+    public bool performStomp {get {return in_stomp_animation;}}
 
     // Timers
     private float coyote_time_timer;
@@ -40,6 +47,8 @@ public class PlayerController : MonoBehaviour
 
     public UnityEvent OnJump;
     public UnityEvent OnLand;
+    public UnityEvent OnDash; 
+    public UnityEvent OnStomp;
 
     void Awake()
     {
@@ -60,6 +69,7 @@ public class PlayerController : MonoBehaviour
         // Récupère le rigidbody 2D
         body2D = GetComponent<Rigidbody2D>();
         in_dash_animation = false;
+        in_stomp_animation = false;
     }
 
     void Start()
@@ -85,8 +95,6 @@ public class PlayerController : MonoBehaviour
         // Vérifie si le joueur touche le sol
         is_grounded = Ground_check();
 
-        if(Ground_check()){is_dash_enable = true;}
-
         // Si le joueur tombe et que le multiplicateur de gravité est différent de la chute, change le multiplicateur de gravité
         if (move_dir.y < 0 && gravity_multiplier != fall_gravity_multiplier)
         {
@@ -107,7 +115,7 @@ public class PlayerController : MonoBehaviour
         }
 
         // Applique la vélocité modifiée au rigidbody.
-        if (!in_dash_animation)
+        if (!in_dash_animation && !in_stomp_animation)
         {
             body2D.linearVelocity = move_dir;
         }
@@ -147,6 +155,10 @@ public class PlayerController : MonoBehaviour
 
             // Met le multiplicateur de gravité à celui de chute
             gravity_multiplier = fall_gravity_multiplier;
+            is_dash_enable = true;
+            is_stomp_enable = true;
+            in_dash_animation = false;
+            in_stomp_animation = false;
             return true;
         }
         else
@@ -173,13 +185,15 @@ public class PlayerController : MonoBehaviour
             {
                 // Si le joueur touche le sol ou le coyote time timer est actif, saute.
                 Jump();
-            }else if (!is_grounded && is_dash_enable && jump_press && !in_dash_animation)
+            }else if (!is_grounded && is_dash_enable && !in_dash_animation)
             {
-                Debug.Log("Dash Forward !!");
-                DashForward();
+                PerformDash();
             }
         }
-        
+        if(!is_grounded && is_stomp_enable && !in_stomp_animation && down_press)
+            {
+                PerformStomp();
+            }
         if (jump_buffer_timer <= 0)
         {
             // Si le jump buffer timer atteint 0, ne considère plus que le bouton de saut a été appuyé.
@@ -196,36 +210,40 @@ public class PlayerController : MonoBehaviour
         jump_released = false;
     }
 
-    void DashForward()
+    void PerformDash()
     {
-        StartCoroutine(Dash());
+        if(move_input.x != 0) StartCoroutine(Dash(move_input.x));
     }
-    IEnumerator Dash()
+
+    void PerformStomp()
+    {
+        if(move_input.y == -1) StartCoroutine(Stomp());
+    }
+    IEnumerator Dash(float direction)
     {   
-
-        Initialized_Dash(true);
-        Vector2 move_direction = new Vector2(body2D.linearVelocityX, 0) * dashForce;
-        body2D.AddForce(move_direction, ForceMode2D.Impulse);
-
+        in_dash_animation = true;
+        is_dash_enable = false;
+        float originalGravity = body2D.gravityScale;
+        body2D.gravityScale = 0f;
+        body2D.AddForceX(direction * dash_force, ForceMode2D.Impulse);
+        OnDash?.Invoke();
         yield return new WaitForSeconds(0.2f);
-        Initialized_Dash(false);
+        in_dash_animation = false;
+        body2D.gravityScale = originalGravity;
     }
 
-    void Initialized_Dash(bool value)
+    IEnumerator Stomp()
     {
-        if (value)
-        {
-            in_dash_animation = true;
-            is_dash_enable = false;
-            body2D.constraints = RigidbodyConstraints2D.FreezePositionY;
-        }
-        else
-        {
-            body2D.constraints = RigidbodyConstraints2D.None;
-            body2D.constraints = RigidbodyConstraints2D.FreezeRotation;
-            in_dash_animation = false;
-        }
-
+        is_stomp_enable = false;
+        OnStomp?.Invoke();
+        in_stomp_animation = true;
+        float originalGravity = body2D.gravityScale;
+        body2D.gravityScale = 0f;
+        SetFreeze(true);
+        yield return new WaitForSeconds(stomp_startup_freeze);
+        SetFreeze(false);
+        body2D.AddForceY(-1 * stomp_force,ForceMode2D.Impulse);
+        body2D.gravityScale = originalGravity;
     }
 
     public void Jump()
@@ -244,8 +262,6 @@ public class PlayerController : MonoBehaviour
         OnJump?.Invoke();
         
     }
-
-    
 
     // Permet de forcer un saut même si le perso ne touche pas le sol.
     public void ForceJump()
@@ -276,7 +292,7 @@ public class PlayerController : MonoBehaviour
         if (value)
         {
             // Stoppe le player et sa physique
-            body2D.bodyType = RigidbodyType2D.Static;
+            // body2D.bodyType = RigidbodyType2D.Static;
             body2D.linearVelocity = Vector2.zero;
             // Stop input
             playerInput.enabled = false;
@@ -284,7 +300,7 @@ public class PlayerController : MonoBehaviour
         else
         {
             // Réactive la physique du joueur
-            body2D.bodyType = RigidbodyType2D.Dynamic;
+            // body2D.bodyType = RigidbodyType2D.Dynamic;
             // Réactive les inputs
             playerInput.enabled = true;
         }
@@ -295,6 +311,7 @@ public class PlayerController : MonoBehaviour
     public void Move(InputAction.CallbackContext ctx)
     {
         move_input = ctx.ReadValue<Vector2>();
+        if(move_input.y == -1){down_press = true;}else{down_press = false;}
     }
 
     // Input de saut
