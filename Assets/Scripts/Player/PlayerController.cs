@@ -225,6 +225,7 @@ public class PlayerController : MonoBehaviour
         is_dash_enable = false;
         float originalGravity = body2D.gravityScale;
         body2D.gravityScale = 0f;
+        body2D.linearVelocityY = 0f;
         body2D.AddForceX(direction * dash_force, ForceMode2D.Impulse);
         OnDash?.Invoke();
         yield return new WaitForSeconds(0.2f);
