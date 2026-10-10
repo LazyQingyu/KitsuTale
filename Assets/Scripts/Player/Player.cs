@@ -13,10 +13,11 @@ public class Player : MonoBehaviour
     private const int LIFEMAXIMUM = 5;
     private PlayerController _player_control;
     private PlayerAnim _player_anim;
-    public UnityEvent<int> OnScoreChanged;
+    public UnityEvent<int> OnScoreChanged; 
+    public UnityEvent<int> OnLifeChanged;
 
-    public delegate void DelegateIsDead(int life);
-    public static DelegateIsDead isDead;
+    public delegate void DelegateOnLifeChanged(int life);
+    public static DelegateOnLifeChanged onLifeChanged;
 
     public bool grounded {get{return _player_control.grounded;}}
 
@@ -36,7 +37,7 @@ public class Player : MonoBehaviour
         _player_control.SetFreeze(true);
         _player_anim.SetDeathAnim(true);
         life--;
-        isDead?.Invoke(life);
+        onLifeChanged?.Invoke(life);
         if(life < 0)
         {
             StartCoroutine(GameOVerRespawn());
@@ -78,6 +79,7 @@ public class Player : MonoBehaviour
         {
             life++;
         }
+        onLifeChanged?.Invoke(life);
     }
 
     public void Bounce()

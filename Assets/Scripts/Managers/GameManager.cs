@@ -33,7 +33,7 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
-        Player.isDead += SaveLife;
+        Player.onLifeChanged += SaveLife;
     }
 
     void SaveLife(int life)

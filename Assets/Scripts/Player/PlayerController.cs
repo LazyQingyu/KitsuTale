@@ -293,7 +293,7 @@ public class PlayerController : MonoBehaviour
         if (value)
         {
             // Stoppe le player et sa physique
-            // body2D.bodyType = RigidbodyType2D.Static;
+            body2D.bodyType = RigidbodyType2D.Static;
             body2D.linearVelocity = Vector2.zero;
             // Stop input
             playerInput.enabled = false;
@@ -301,7 +301,7 @@ public class PlayerController : MonoBehaviour
         else
         {
             // Réactive la physique du joueur
-            // body2D.bodyType = RigidbodyType2D.Dynamic;
+             body2D.bodyType = RigidbodyType2D.Dynamic;
             // Réactive les inputs
             playerInput.enabled = true;
         }

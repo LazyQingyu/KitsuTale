@@ -8,13 +8,13 @@ public class LifePanel : MonoBehaviour
     public List<RectTransform> listLifeIcon;
     void Start()
     {
-        Player.isDead += UpdateLife ;
+        Player.onLifeChanged += UpdateLife ;
         InitializedLife();
     }
 
     void OnDestroy()
     {
-        Player.isDead -= UpdateLife;
+        Player.onLifeChanged -= UpdateLife;
     }
     void InitializedLife()
     {
