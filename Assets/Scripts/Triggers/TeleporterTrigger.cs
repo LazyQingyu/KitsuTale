@@ -4,6 +4,7 @@ using UnityEngine;
 public class TeleporterTrigger : MonoBehaviour
 {
     Player player;
+    public GameObject next_teleportation_point;
     void Start()
     {
         player = Level.current_level.player;
@@ -14,7 +15,7 @@ public class TeleporterTrigger : MonoBehaviour
         Debug.Log("Teleporter trigger");
         if (collision.CompareTag("Player"))
         {
-            player.Teleport(new Vector2(-12.3f,-3.95f));
+            player.Teleport(next_teleportation_point.transform.position);
         }
     }
 

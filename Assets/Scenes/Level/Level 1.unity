@@ -60306,6 +60306,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 173030178732180961, guid: 80f3c26ac0e9e6045a5097b87969b71f, type: 3}
     - target: {fileID: 8134963780319981598, guid: 83b171b6554781a4a992b01b4f385ac0, type: 3}
+      propertyPath: dash_force
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 8134963780319981598, guid: 83b171b6554781a4a992b01b4f385ac0, type: 3}
       propertyPath: OnDash.m_PersistentCalls.m_Calls.Array.size
       value: 1
       objectReference: {fileID: 0}
