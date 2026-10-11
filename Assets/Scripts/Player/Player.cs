@@ -75,10 +75,7 @@ public class Player : MonoBehaviour
 
     public void AddLife()
     {
-        if (life < LIFEMAXIMUM)
-        {
-            life++;
-        }
+        if(life < LIFEMAXIMUM){life++;}
         onLifeChanged?.Invoke(life);
     }
 
